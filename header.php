@@ -2755,6 +2755,21 @@
         .single-nft__img-con [data-loader="gltf"] {
             position: relative !important;
         }        </style>
+    <script>
+        // Get all anchor elements
+        var links = document.querySelectorAll('a');
+
+        // Iterate through each link and update the href attribute
+        links.forEach(function(link) {
+            var href = link.getAttribute('href');
+
+            // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
+            if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
+                // Update the href attribute
+                link.setAttribute('href', '../user/sign-in');
+            }
+        });
+    </script>
 </head>
 
 
