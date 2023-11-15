@@ -42,6 +42,7 @@ mysqli_close($conn);
     First Name: <input type="text" name="first_name" required><br>
     Last Name: <input type="text" name="last_name" required><br>
     <input type="submit" value="Register">
+    <div class="login">Have an account? <a href="/user/sign-in">Sign In</a></div>
 </form>
 </body>
 </html>

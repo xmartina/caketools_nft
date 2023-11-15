@@ -48,6 +48,7 @@ mysqli_close($conn);
     User Name or Email: <input type="text" name="user_input" required><br>
     Password: <input type="password" name="password" required><br>
     <input type="submit" value="Login">
+    <div class="sign-up">don't have an account? <a href="/user/register"> signup</a></div>
 </form>
 </body>
 </html>
