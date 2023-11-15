@@ -3,7 +3,8 @@ const baseUrl = 'https://a9.quickassistant.me';
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 // Include database connection file
-include(baseUrl.'/config/db_connect.php');
+include('/home/quickass/domains/a9.quickassistant.me/public_html/config/db_connect.php');
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Collect user input
