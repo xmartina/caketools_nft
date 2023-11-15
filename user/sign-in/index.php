@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 // Include database connection file
-include('../config/db_connect.php');
+include('/config/db_connect.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Collect user input
