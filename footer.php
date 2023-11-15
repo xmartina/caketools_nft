@@ -305,5 +305,4 @@
       href="https://wpsmartnft.com/wp-content/themes/blocksy/static/bundle/non-critical-styles.min.css">
 <script src="https://wpsmartnft.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"></script>
 </body>
-<!-- Mirrored from wpsmartnft.com/landing-page-01/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Nov 2023 17:03:57 GMT -->
 </html>
