@@ -9,8 +9,7 @@
                 <div class="elementor-element elementor-element-5ee89e6 elementor-widget elementor-widget-text-editor"
                      data-id="5ee89e6" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <p>Copyright © 2023 – Smart NFT Plugin by <strong><a
-                                    href="https://codecanyon.net/user/tophive" target="_blank" rel="noopener">Tophive</a></strong>
+                        <p>Copyright © 2023 <strong> <a href="/"><?= siteName ?> </a></strong>
                         </p></div>
                 </div>
             </div>
