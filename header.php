@@ -1,3 +1,4 @@
+<?php require_once ('config.php'); ?>
 <html lang="en-US" prefix="og: https://ogp.me/ns#">
 <head>
     <script>
@@ -24,10 +25,10 @@
 
 
     <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
-    <title>Landing Page 01 – Smart NFT</title>
+    <title>Home | <?php echo siteName ?></title>
     <meta name="description" content="From comics to characters, discover the Pixel Vault ecosystem in one place">
     <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
-    <link rel="canonical" href="index.html">
+    <link rel="canonical" href="/">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Landing Page 01 - Smart NFT">
