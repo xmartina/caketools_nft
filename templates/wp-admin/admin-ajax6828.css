@@ -1,0 +1,78 @@
+ 
+
+			/* CSS Starts Here */
+			
+			/* All nft page */
+			#smartnft-root  .all-nft-page.all-nfts, #smartnft-root .all-nft-page.all-nft-skeleton{
+					grid-template-columns: repeat(5, 1fr);
+			}
+			#smartnft-root .all-nft-main-con {
+					max-width: NaNpx;
+			}
+
+
+
+			/* all collection page */
+			#smartnft-root .all-collections, 
+			#smartnft-root .all-collections-skeleton  {
+					grid-template-columns: repeat(5, 1fr);
+					max-width: NaNpx;
+			}
+			#smartnft-root .all-collection-main-container .collection-card-list, 
+			#smartnft-root .all-collection-main-container .all-collections-list-skeleton,
+			#smartnft-root .all-collection-main-container .all-collections-list{
+					max-width: NaNpx;
+					margin: 0 auto;
+			}
+
+
+			/* single collection page */
+			#smartnft-root  .single-collection.all-nfts, #smartnft-root .single-collection.all-nft-skeleton{
+					grid-template-columns: repeat(5, 1fr);
+			}
+			#smartnft-root .collection-container {
+					max-width: NaNpx;
+			}
+
+
+
+			/* create collection page */
+			#smartnft-root .create-collection {
+					max-width: NaNpx;
+			}
+
+
+			/* single category page  */
+			#smartnft-root  .single-category-page.all-nfts, #smartnft-root .single-category-page.all-nft-skeleton{
+					grid-template-columns: repeat(4, 1fr);
+			}
+			#smartnft-root .single-category {
+					max-width: NaNpx;
+			}
+
+
+			/*profile page */
+			#smartnft-root .smart-nft-profile {
+					max-width: 1000px;
+			}
+			#smartnft-root  .profile-page.all-nfts, #smartnft-root .profile-page.all-nft-skeleton{
+					grid-template-columns: repeat(4, 1fr);
+			}
+
+		
+			/*profile page */
+			#smartnft-root .edit-profile.smart-nft-profile {
+					max-width: 990px;
+		  }
+			
+			
+
+
+			/* Single nft page */
+			#smartnft-root .single-nft-info{
+					max-width:1200px;
+			}
+				
+		  
+
+0

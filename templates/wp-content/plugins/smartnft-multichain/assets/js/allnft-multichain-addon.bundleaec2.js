@@ -1,0 +1,1 @@
+(()=>{var _=function(_,F){return F};wp.hooks.addFilter("SMARTNFT_ADD_CHAIN_FILTER_ON_FILTER","SNFT",_,10),wp.hooks.addFilter("SMARTNFT_ADD_CHAIN_FILTER_ON_ALL_COLL_PAGE_FILTER","SNFT",_,10)})();
