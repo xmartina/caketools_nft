@@ -1,9 +1,9 @@
 <?php
 // Database connection parameters
 $host = "localhost";
-$user = "multistream6_caketools_test";
+$user = "quickass_caketools_test";
 $password = "000000";
-$database = "multistream6_caketools_test";
+$database = "quickass_caketools_test";
 
 // Create connection
 $conn = mysqli_connect($host, $user, $password, $database);
