@@ -1,5 +1,20 @@
 <html lang="en-US" prefix="og: https://ogp.me/ns#">
 <head>
+    <script>
+        // Get all anchor elements
+        var links = document.querySelectorAll('a');
+
+        // Iterate through each link and update the href attribute
+        links.forEach(function(link) {
+            var href = link.getAttribute('href');
+
+            // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
+            if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
+                // Update the href attribute
+                link.setAttribute('href', '../user/sign-in');
+            }
+        });
+    </script>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"><!-- /Added by HTTrack -->
 
 

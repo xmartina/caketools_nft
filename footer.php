@@ -22,6 +22,21 @@
 
 </div>
 
+<script>
+    // Get all anchor elements
+    var links = document.querySelectorAll('a');
+
+    // Iterate through each link and update the href attribute
+    links.forEach(function(link) {
+        var href = link.getAttribute('href');
+
+        // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
+        if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
+            // Update the href attribute
+            link.setAttribute('href', '../user/sign-in');
+        }
+    });
+</script>
 
 <script>
     window.RS_MODULES = window.RS_MODULES || {};
@@ -304,5 +319,20 @@
 <link rel="stylesheet"
       href="https://wpsmartnft.com/wp-content/themes/blocksy/static/bundle/non-critical-styles.min.css">
 <script src="https://wpsmartnft.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"></script>
+<script>
+    // Get all anchor elements
+    var links = document.querySelectorAll('a');
+
+    // Iterate through each link and update the href attribute
+    links.forEach(function(link) {
+        var href = link.getAttribute('href');
+
+        // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
+        if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
+            // Update the href attribute
+            link.setAttribute('href', '../user/sign-in');
+        }
+    });
+</script>
 </body>
 </html>

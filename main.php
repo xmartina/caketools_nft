@@ -1,5 +1,19 @@
 <main id="main" class="site-main hfeed">
+    <script>
+        // Get all anchor elements
+        var links = document.querySelectorAll('a');
 
+        // Iterate through each link and update the href attribute
+        links.forEach(function(link) {
+            var href = link.getAttribute('href');
+
+            // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
+            if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
+                // Update the href attribute
+                link.setAttribute('href', '../user/sign-in');
+            }
+        });
+    </script>
     <div data-elementor-type="wp-page" data-elementor-id="11660" class="elementor elementor-11660">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-e3f373f ct-section-stretched elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
