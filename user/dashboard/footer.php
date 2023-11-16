@@ -122,14 +122,13 @@
                 <div class="elementor-element elementor-element-5ee89e6 elementor-widget elementor-widget-text-editor"
                      data-id="5ee89e6" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <p>Copyright © 2023 <strong> <a href="/"><?= siteName ?> </a></strong>
+                        <p>Copyright © 2023 <strong> <a href="../../"><?= siteName ?> </a></strong>
                         </p></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 
 <script>
     // Get all anchor elements
@@ -156,9 +155,9 @@
     window.RS_MODULES.type = 'compiled';
 </script>
 <link rel="stylesheet" id="e-animations-css"
-      href="/wp-content/plugins/elementor/assets/lib/animations/animations.min8864.css?ver=3.17.3" media="all">
+      href="../../wp-content/plugins/elementor/assets/lib/animations/animations.min8864.css?ver=3.17.3" media="all">
 <link rel="stylesheet" id="rs-plugin-settings-css"
-      href="/wp-content/plugins/revslider/public/assets/css/rs6627e.css?ver=6.6.14" media="all">
+      href="../../wp-content/plugins/revslider/public/assets/css/rs6627e.css?ver=6.6.14" media="all">
 <style id="rs-plugin-settings-inline-css">
     #rs-demo-id {
     }
