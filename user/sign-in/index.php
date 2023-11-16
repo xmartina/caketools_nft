@@ -6,7 +6,7 @@ ini_set('display_errors', '1');
 session_start();
 
 // Include database connection file with a relative path
-include('config/db_connect.php');
+include('../../config/db_connect.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Collect user input
