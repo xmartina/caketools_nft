@@ -1,4 +1,5 @@
 <?php
+const basePath = '/home/multistream6/domains/caketoolsnftmarketplace.com/user';
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 // Start the session
@@ -14,5 +15,5 @@ session_start();
 
 // Display dashboard content
 echo "Welcome to the Dashboard!";
-require_once ('/../user/all-nft');
+require_once (basePath.'/all-nft');
 ?>
