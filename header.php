@@ -1654,7 +1654,7 @@
           href="/wp-json/oembed/1.0/embed9d30?url=https%3A%2F%2Fwpsmartnft.com%2Flanding-page-01%2F&amp;format=xml">
     <meta name="generator" content="Site Kit by Google 1.113.0">
     <noscript>
-        <link rel='stylesheet' href='/wp-content/themes/blocksy/static/bundle/no-scripts.min.css' type='text/css'>
+        <link rel='stylesheet' href='../../wp-content/themes/blocksy/static/bundle/no-scripts.min.css' type='text/css'>
     </noscript>
     <style id="ct-main-styles-inline-css">[data-header*="type-1"] .ct-header [data-id="button"] .ct-button-ghost {
             --buttonTextInitialColor: var(--buttonInitialColor);
