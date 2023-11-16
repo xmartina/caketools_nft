@@ -2696,79 +2696,12 @@
                  data-toggle-type="type-1" aria-label="Off Canvas Menu">
                 <ul id="menu-header-menu-1" role="menubar">
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034"
-                        role="none"><span class="ct-sub-menu-parent"><a href="#" class="ct-menu-link" role="menuitem">Marketplace</a><button
-                                class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-haspopup="true"
-                                aria-expanded="false" role="menuitem"><svg class="ct-icon toggle-icon-2" width="15"
-                                                                           height="15" viewBox="0 0 15 15"><path
-                                        d="M14.1,6.6H8.4V0.9C8.4,0.4,8,0,7.5,0S6.6,0.4,6.6,0.9v5.7H0.9C0.4,6.6,0,7,0,7.5s0.4,0.9,0.9,0.9h5.7v5.7C6.6,14.6,7,15,7.5,15s0.9-0.4,0.9-0.9V8.4h5.7C14.6,8.4,15,8,15,7.5S14.6,6.6,14.1,6.6z"></path></svg></button></span>
-                        <ul class="sub-menu" role="menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9100"
-                                role="none"><a href="/all-collections/index.html" class="ct-menu-link"
-                                               role="menuitem">Collections</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"
-                                role="none"><a href="/all-nft/index.html" class="ct-menu-link"
-                                               role="menuitem">NFTs</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8256"
-                                role="none"><a href="/categories/index.html" class="ct-menu-link" role="menuitem">Categories</a>
-                            </li>
-                        </ul>
+                        role="none"><span class="ct-sub-menu-parent"><a href="/" class="ct-menu-link" role="menuitem">Home</a>
+                        </span>
                     </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3684"
-                        role="none"><span class="ct-sub-menu-parent"><a href="#" class="ct-menu-link"
-                                                                        role="menuitem"><span class="animated-text">Templates</span></a><button
-                                class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-haspopup="true"
-                                aria-expanded="false" role="menuitem"><svg class="ct-icon toggle-icon-2" width="15"
-                                                                           height="15" viewBox="0 0 15 15"><path
-                                        d="M14.1,6.6H8.4V0.9C8.4,0.4,8,0,7.5,0S6.6,0.4,6.6,0.9v5.7H0.9C0.4,6.6,0,7,0,7.5s0.4,0.9,0.9,0.9h5.7v5.7C6.6,14.6,7,15,7.5,15s0.9-0.4,0.9-0.9V8.4h5.7C14.6,8.4,15,8,15,7.5S14.6,6.6,14.1,6.6z"></path></svg></button></span>
-                        <ul class="sub-menu" role="menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11660 current_page_item menu-item-12082"
-                                role="none"><a href="index.html" aria-current="page" class="ct-menu-link"
-                                               role="menuitem">Landing Page 01</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11471"
-                                role="none"><a href="/landing-page-02/index.html" class="ct-menu-link"
-                                               role="menuitem">Landing Page 02</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5979"
-                                role="none"><a href="/landing-page-03/index.html" class="ct-menu-link"
-                                               role="menuitem">Landing Page 03</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9482"
-                                role="none"><a href="/landing-page-04/index.html" class="ct-menu-link"
-                                               role="menuitem">Landing Page 04</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4840"
-                                role="none"><a href="/landing-page-05/index.html" class="ct-menu-link"
-                                               role="menuitem">Landing Page 05</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5978"
-                                role="none"><a href="/landing-page-06/index.html" class="ct-menu-link"
-                                               role="menuitem">Landing Page 06</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13813"
-                                role="none"><a href="/landing-page-07/index.html" class="ct-menu-link"
-                                               role="menuitem">Landing Page 07</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14081"
-                                role="none"><a href="/landing-page-08/index.html" class="ct-menu-link"
-                                               role="menuitem">Landing Page 08</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3035"
-                        role="none"><span class="ct-sub-menu-parent"><a href="#" class="ct-menu-link" role="menuitem">Create</a><button
-                                class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-haspopup="true"
-                                aria-expanded="false" role="menuitem"><svg class="ct-icon toggle-icon-2" width="15"
-                                                                           height="15" viewBox="0 0 15 15"><path
-                                        d="M14.1,6.6H8.4V0.9C8.4,0.4,8,0,7.5,0S6.6,0.4,6.6,0.9v5.7H0.9C0.4,6.6,0,7,0,7.5s0.4,0.9,0.9,0.9h5.7v5.7C6.6,14.6,7,15,7.5,15s0.9-0.4,0.9-0.9V8.4h5.7C14.6,8.4,15,8,15,7.5S14.6,6.6,14.1,6.6z"></path></svg></button></span>
-                        <ul class="sub-menu" role="menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2139"
-                                role="none"><a href="/create-new-nft/index.html" class="ct-menu-link" role="menuitem">Create
-                                    NFT</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3029"
-                                role="none"><a href="/create-collection/index.html" class="ct-menu-link"
-                                               role="menuitem">Create Collection</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2071"
-                                role="none"><a href="/profile/index.html" class="ct-menu-link"
-                                               role="menuitem">Profile</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14704" role="none"><a
-                            href="/addons/index.html" class="ct-menu-link" role="menuitem">Addons</a></li>
-                    <li class="menu-item menu-item-type-post_type_archive menu-item-object-docs menu-item-945"
-                        role="none"><a href="/docs/index.html" class="ct-menu-link" role="menuitem">Documentation</a>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034"
+                        role="none"><span class="ct-sub-menu-parent"><a href="/" class="ct-menu-link" role="menuitem">Explore</a>
+                        </span>
                     </li>
                 </ul>
             </nav>
@@ -2862,7 +2795,11 @@
                                 <ul id="menu-header-menu" class="menu" role="menubar">
                                     <li id="menu-item-3034"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
-                                        role="none"><a href="#" class="ct-menu-link" role="menuitem">Marketplace</a>
+                                        role="none"><a href="/" class="ct-menu-link" role="menuitem">Home</a>
+                                    </li>
+                                    <li id="menu-item-3034"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
+                                        role="none"><a href="/user/dashboard" class="ct-menu-link" role="menuitem">Explore</a>
                                     </li>
                                 </ul>
                             </nav>
