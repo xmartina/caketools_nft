@@ -1,4 +1,4 @@
-<?php require_once (__DIR__.'/header.php');?>
+<?php require_once (__DIR__.'../header.php');?>
 	<main id="main" class="site-main hfeed">
 
 		
