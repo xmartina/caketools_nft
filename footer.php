@@ -32,7 +32,7 @@
         // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
         if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
             // Update the href attribute
-            link.setAttribute('href', '../user/sign-in');
+            link.setAttribute('href', '/user/sign-in');
         }
     });
 </script>
@@ -46,16 +46,16 @@
     window.RS_MODULES.type = 'compiled';
 </script>
 <link rel="stylesheet" id="e-animations-css"
-      href="../wp-content/plugins/elementor/assets/lib/animations/animations.min8864.css?ver=3.17.3" media="all">
+      href="/wp-content/plugins/elementor/assets/lib/animations/animations.min8864.css?ver=3.17.3" media="all">
 <link rel="stylesheet" id="rs-plugin-settings-css"
-      href="../wp-content/plugins/revslider/public/assets/css/rs6627e.css?ver=6.6.14" media="all">
+      href="/wp-content/plugins/revslider/public/assets/css/rs6627e.css?ver=6.6.14" media="all">
 <style id="rs-plugin-settings-inline-css">
     #rs-demo-id {
     }
 </style>
-<script src="../wp-content/plugins/coblocks/dist/js/coblocks-animationc6bd.js?ver=3.1.5"
+<script src="/wp-content/plugins/coblocks/dist/js/coblocks-animationc6bd.js?ver=3.1.5"
         id="coblocks-animation-js"></script>
-<script src="../wp-content/plugins/coblocks/dist/js/vendors/tiny-swiperc6bd.js?ver=3.1.5"
+<script src="/wp-content/plugins/coblocks/dist/js/vendors/tiny-swiperc6bd.js?ver=3.1.5"
         id="coblocks-tiny-swiper-js"></script>
 <script id="coblocks-tinyswiper-initializer-js-extra">
     var coblocksTinyswiper = {
@@ -64,34 +64,34 @@
         "sliderImageAriaLabel": "Image"
     };
 </script>
-<script src="../wp-content/plugins/coblocks/dist/js/coblocks-tinyswiper-initializerc6bd.js?ver=3.1.5"
+<script src="/wp-content/plugins/coblocks/dist/js/coblocks-tinyswiper-initializerc6bd.js?ver=3.1.5"
         id="coblocks-tinyswiper-initializer-js"></script>
-<script src="../wp-content/plugins/revslider/public/assets/js/rbtools.min627e.js?ver=6.6.14" defer="" async=""
+<script src="/wp-content/plugins/revslider/public/assets/js/rbtools.min627e.js?ver=6.6.14" defer="" async=""
         id="tp-tools-js"></script>
-<script src="../wp-content/plugins/revslider/public/assets/js/rs6.min627e.js?ver=6.6.14" defer="" async=""
+<script src="/wp-content/plugins/revslider/public/assets/js/rs6.min627e.js?ver=6.6.14" defer="" async=""
         id="revmin-js"></script>
-<script src="../wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
-<script src="../wp-includes/js/dist/vendor/regenerator-runtime.min6c85.js?ver=0.14.0"
+<script src="/wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script src="/wp-includes/js/dist/vendor/regenerator-runtime.min6c85.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
-<script src="../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0" id="wp-polyfill-js"></script>
-<script src="../wp-includes/js/dist/hooks.min2ebd.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
-<script src="../wp-includes/js/dist/i18n.minf92f.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script src="/wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="/wp-includes/js/dist/hooks.min2ebd.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script src="/wp-includes/js/dist/i18n.minf92f.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
 
-<script src="../wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min40a1.js?ver=3.9.1.1"
+<script src="/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min40a1.js?ver=3.9.1.1"
         id="happy-elementor-addons-js"></script>
-<script src="../wp-content/plugins/happy-elementor-addons/assets/vendor/anime/lib/anime.min40a1.js?ver=3.9.1.1"
+<script src="/wp-content/plugins/happy-elementor-addons/assets/vendor/anime/lib/anime.min40a1.js?ver=3.9.1.1"
         id="anime-js"></script>
-<script src="../wp-content/plugins/smart-nft/frontend/assets/js/element-nft-grid.bundleaec2.js?ver=6.4.1"
+<script src="/wp-content/plugins/smart-nft/frontend/assets/js/element-nft-grid.bundleaec2.js?ver=6.4.1"
         id="smartnft_front_element_nft_grid-js"></script>
-<script src="../wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min3958.js?ver=0.2.1"
+<script src="/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min3958.js?ver=0.2.1"
         id="jquery-numerator-js"></script>
-<script src="../wp-content/plugins/elementor/assets/js/webpack.runtime.min8864.js?ver=3.17.3"
+<script src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min8864.js?ver=3.17.3"
         id="elementor-webpack-runtime-js"></script>
-<script src="../wp-content/plugins/elementor/assets/js/frontend-modules.min8864.js?ver=3.17.3"
+<script src="/wp-content/plugins/elementor/assets/js/frontend-modules.min8864.js?ver=3.17.3"
         id="elementor-frontend-modules-js"></script>
-<script src="../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2"
+<script src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
-<script src="../wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script src="/wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
         "environmentMode": {"edit": false, "wpPreview": false, "isScriptDebug": false},
@@ -194,7 +194,7 @@
         }
     };
 </script>
-<script src="../wp-content/plugins/elementor/assets/js/frontend.min8864.js?ver=3.17.3"
+<script src="/wp-content/plugins/elementor/assets/js/frontend.min8864.js?ver=3.17.3"
         id="elementor-frontend-js"></script>
 <span id="elementor-device-mode" class="elementor-screen-only"></span>
 <script id="elementor-frontend-js-after">
@@ -329,7 +329,7 @@
         // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
         if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
             // Update the href attribute
-            link.setAttribute('href', '../user/sign-in');
+            link.setAttribute('href', '/user/sign-in');
         }
     });
 </script>
