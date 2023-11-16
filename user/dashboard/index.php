@@ -1,5 +1,4 @@
 <?php
-const baseUrl = 'https://a9.quickassistant.me';
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 // Start the session
