@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (password_verify($password, $row['password'])) {
             // Redirect to the dashboard
             $_SESSION['user_id'] = $row['id'];
-            header("Location: ../user/dashboard/index.php");
+            header("Location: ../../user/dashboard");
             exit();
         } else {
             echo "Incorrect password.";
