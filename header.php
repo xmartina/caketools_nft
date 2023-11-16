@@ -2849,13 +2849,8 @@
                             <div class="site-branding" data-id="logo" itemscope="itemscope"
                                  itemtype="https://schema.org/Organization">
 
-                                <a href="<?= baseUrl ?>" class="site-logo-container" rel="home"><img width="571"
-                                                                                                    height="112"
-                                                                                                    src="<?= siteLogo ?>"
-                                                                                                    class="default-logo"
-                                                                                                    alt="<?= siteName ?> | logo"></a>
+                                <a href="<?= baseUrl ?>" class="site-logo-container" rel="home"><img width="271" src="<?= siteLogo ?>" class="default-logo" alt="<?= siteName ?> | logo"></a>
                             </div>
-
                         </div>
                     </div>
                     <div data-column="end" data-placements="1">
