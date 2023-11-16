@@ -14,6 +14,5 @@ ini_set('display_errors', '1');
 // Include any necessary header or layout files
 
 // Display dashboard content
-echo "Welcome to the Dashboard!";
-require_once (basePath.'/all-nft/index.php');
+require_once (basePath.'/dashboard/all-nft/index.php');
 ?>
