@@ -4,7 +4,10 @@ ini_set('display_errors', '1');
 
 // Start the session at the beginning of your script
 session_start();
-
+if (isset($_SESSION['user_id'])) {
+    header("Location: ../../user/dashboard");
+    exit();
+}
 // Include database connection file with a relative path
 include('../../config/db_connect.php');
 
