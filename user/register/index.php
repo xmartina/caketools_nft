@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 // Include database connection file
-include('/home/quickass/domains/caketoolsnftmarketplace.com/public_html/config/db_connect.php');
+include('../../config/db_connect.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Collect user input
@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Insert user data into the database
     $sql = "INSERT INTO users (user_name, password, email, first_name, last_name) VALUES ('$user_name', '$password', '$email', '$first_name', '$last_name')";
     if (mysqli_query($conn, $sql)) {
-        echo "Registration successful. You can now <a href='/user/sign-in/index.php'>sign in</a>.";
+        echo "Registration successful. You can now <a href='../../user/sign-in'>sign in</a>.";
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
