@@ -14,5 +14,5 @@ session_start();
 
 // Display dashboard content
 echo "Welcome to the Dashboard!";
-require_once (__DIR__ .'/../user/all-nft');
+require_once (__DIR__ .'/user/all-nft');
 ?>
