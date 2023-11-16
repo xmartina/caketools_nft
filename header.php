@@ -2849,7 +2849,7 @@
                             <div class="site-branding" data-id="logo" itemscope="itemscope"
                                  itemtype="https://schema.org/Organization">
 
-                                <a href="<?= baseUrl ?>" class="site-logo-container" rel="home"><img width="271" src="<?= siteLogo ?>" class="default-logo" alt="<?= siteName ?> | logo"></a>
+                                <a href="<?= siteUrl ?>" class="site-logo-container" rel="home"><img width="271" src="<?= siteLogo ?>" class="default-logo" alt="<?= siteName ?> | logo"></a>
                             </div>
                         </div>
                     </div>
@@ -2862,108 +2862,7 @@
                                 <ul id="menu-header-menu" class="menu" role="menubar">
                                     <li id="menu-item-3034"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
-                                        role="none" data-submenu="right"><a href="#" class="ct-menu-link"
-                                                                            role="menuitem">Marketplace<span
-                                                class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8"
-                                                                                        viewBox="0 0 15 15"><path
-                                                        d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg></span></a>
-                                        <button class="ct-toggle-dropdown-desktop-ghost"
-                                                aria-label="Expand dropdown menu" aria-haspopup="true"
-                                                aria-expanded="false" role="menuitem"></button>
-                                        <ul class="sub-menu" role="menu">
-                                            <li id="menu-item-9100"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9100"
-                                                role="none"><a href="../all-collections/index.html" class="ct-menu-link"
-                                                               role="menuitem">Collections</a></li>
-                                            <li id="menu-item-726"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"
-                                                role="none"><a href="../all-nft/index.html" class="ct-menu-link"
-                                                               role="menuitem">NFTs</a></li>
-                                            <li id="menu-item-8256"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8256"
-                                                role="none"><a href="../categories/index.html" class="ct-menu-link"
-                                                               role="menuitem">Categories</a></li>
-                                        </ul>
-                                    </li>
-                                    <li id="menu-item-3684"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3684 animated-submenu"
-                                        role="none" data-submenu="right"><a href="#" class="ct-menu-link"
-                                                                            role="menuitem"><span class="animated-text">Templates</span><span
-                                                class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8"
-                                                                                        viewBox="0 0 15 15"><path
-                                                        d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg></span></a>
-                                        <button class="ct-toggle-dropdown-desktop-ghost"
-                                                aria-label="Expand dropdown menu" aria-haspopup="true"
-                                                aria-expanded="false" role="menuitem"></button>
-                                        <ul class="sub-menu" role="menu">
-                                            <li id="menu-item-12082"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11660 current_page_item menu-item-12082"
-                                                role="none"><a href="index.html" aria-current="page"
-                                                               class="ct-menu-link" role="menuitem">Landing Page 01</a>
-                                            </li>
-                                            <li id="menu-item-11471"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11471"
-                                                role="none"><a href="../landing-page-02/index.html" class="ct-menu-link"
-                                                               role="menuitem">Landing Page 02</a></li>
-                                            <li id="menu-item-5979"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5979"
-                                                role="none"><a href="../landing-page-03/index.html" class="ct-menu-link"
-                                                               role="menuitem">Landing Page 03</a></li>
-                                            <li id="menu-item-9482"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9482"
-                                                role="none"><a href="../landing-page-04/index.html" class="ct-menu-link"
-                                                               role="menuitem">Landing Page 04</a></li>
-                                            <li id="menu-item-4840"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4840"
-                                                role="none"><a href="../landing-page-05/index.html" class="ct-menu-link"
-                                                               role="menuitem">Landing Page 05</a></li>
-                                            <li id="menu-item-5978"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5978"
-                                                role="none"><a href="../landing-page-06/index.html" class="ct-menu-link"
-                                                               role="menuitem">Landing Page 06</a></li>
-                                            <li id="menu-item-13813"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13813"
-                                                role="none"><a href="../landing-page-07/index.html" class="ct-menu-link"
-                                                               role="menuitem">Landing Page 07</a></li>
-                                            <li id="menu-item-14081"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14081"
-                                                role="none"><a href="../landing-page-08/index.html" class="ct-menu-link"
-                                                               role="menuitem">Landing Page 08</a></li>
-                                        </ul>
-                                    </li>
-                                    <li id="menu-item-3035"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3035 animated-submenu"
-                                        role="none" data-submenu="right"><a href="#" class="ct-menu-link"
-                                                                            role="menuitem">Create<span
-                                                class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8"
-                                                                                        viewBox="0 0 15 15"><path
-                                                        d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg></span></a>
-                                        <button class="ct-toggle-dropdown-desktop-ghost"
-                                                aria-label="Expand dropdown menu" aria-haspopup="true"
-                                                aria-expanded="false" role="menuitem"></button>
-                                        <ul class="sub-menu" role="menu">
-                                            <li id="menu-item-2139"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2139"
-                                                role="none"><a href="../create-new-nft/index.html" class="ct-menu-link"
-                                                               role="menuitem">Create NFT</a></li>
-                                            <li id="menu-item-3029"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3029"
-                                                role="none"><a href="../create-collection/index.html"
-                                                               class="ct-menu-link" role="menuitem">Create
-                                                    Collection</a></li>
-                                            <li id="menu-item-2071"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2071"
-                                                role="none"><a href="../profile/index.html" class="ct-menu-link"
-                                                               role="menuitem">Profile</a></li>
-                                        </ul>
-                                    </li>
-                                    <li id="menu-item-14704"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14704"
-                                        role="none"><a href="../addons/index.html" class="ct-menu-link" role="menuitem">Addons</a>
-                                    </li>
-                                    <li id="menu-item-945"
-                                        class="menu-item menu-item-type-post_type_archive menu-item-object-docs menu-item-945"
-                                        role="none"><a href="../docs/index.html" class="ct-menu-link" role="menuitem">Documentation</a>
+                                        role="none"><a href="#" class="ct-menu-link" role="menuitem">Marketplace</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -2986,13 +2885,9 @@
                         <div data-items="primary">
                             <div class="site-branding" data-id="logo">
 
-                                <a href="../index.html" class="site-logo-container" rel="home"><img width="571"
-                                                                                                    height="112"
-                                                                                                    src="../wp-content/uploads/2022/09/main3.png"
-                                                                                                    class="default-logo"
-                                                                                                    alt="smart nft"></a>
+                                <a href="<?= siteUrl ?>" class="site-logo-container" rel="home"><img width="571" src="<?= siteLogo ?>" class="default-logo" alt="<?= siteName ?> | Logo">
+                                </a>
                             </div>
-
                         </div>
                     </div>
                     <div data-column="end" data-placements="1">
