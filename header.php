@@ -2849,11 +2849,11 @@
                             <div class="site-branding" data-id="logo" itemscope="itemscope"
                                  itemtype="https://schema.org/Organization">
 
-                                <a href="../index.html" class="site-logo-container" rel="home"><img width="571"
+                                <a href="<?= baseUrl ?>" class="site-logo-container" rel="home"><img width="571"
                                                                                                     height="112"
-                                                                                                    src="../wp-content/uploads/2022/09/main3.png"
+                                                                                                    src="<?= siteLogo ?>"
                                                                                                     class="default-logo"
-                                                                                                    alt="smart nft"></a>
+                                                                                                    alt="<?= siteName ?> | logo"></a>
                             </div>
 
                         </div>
