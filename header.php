@@ -28,28 +28,28 @@
     <title>Home | <?php echo siteName ?></title>
     <meta name="description" content="From comics to characters, discover the Pixel Vault ecosystem in one place">
     <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="<?= siteUrl ?>">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Landing Page 01 - Smart NFT">
+    <meta property="og:title" content="Home - <?= siteName ?>">
     <meta property="og:description"
           content="From comics to characters, discover the Pixel Vault ecosystem in one place">
-    <meta property="og:url" content="index.html">
-    <meta property="og:site_name" content="Smart NFT">
+    <meta property="og:url" content="<?= siteUrl ?>">
+    <meta property="og:site_name" content="<?= siteName ?>">
     <meta property="og:updated_time" content="2023-07-04T13:36:45+00:00">
-    <meta property="og:image" content="../wp-content/uploads/2023/04/Group-901-min.webp">
-    <meta property="og:image:secure_url" content="../wp-content/uploads/2023/04/Group-901-min.webp">
+    <meta property="og:image" content="<?= siteLogo ?>">
+    <meta property="og:image:secure_url" content="<?= siteLogo ?>">
     <meta property="og:image:width" content="809">
     <meta property="og:image:height" content="713">
     <meta property="og:image:alt" content="NFT Marketplace">
-    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:type" content="<?= siteLogo ?>">
     <meta property="article:published_time" content="2023-06-14T20:49:22+00:00">
     <meta property="article:modified_time" content="2023-07-04T13:36:45+00:00">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Landing Page 01 - Smart NFT">
+    <meta name="twitter:card" content="<?= siteLogo ?>">
+    <meta name="twitter:title" content="Home | <?= siteName ?>">
     <meta name="twitter:description"
           content="From comics to characters, discover the Pixel Vault ecosystem in one place">
-    <meta name="twitter:image" content="../wp-content/uploads/2023/04/Group-901-min.webp">
+    <meta name="twitter:image" content="<?= siteLogo ?>">
     <meta name="twitter:label1" content="Time to read">
     <meta name="twitter:data1" content="Less than a minute">
 
@@ -57,8 +57,8 @@
 
     <link rel="dns-prefetch" href="http://www.googletagmanager.com/">
     <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
-    <link rel="alternate" type="application/rss+xml" title="Smart NFT » Feed" href="../feed/index.html">
-    <link rel="alternate" type="application/rss+xml" title="Smart NFT » Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="<?= siteName ?> » Feed" href="../feed/index.html">
+    <link rel="alternate" type="application/rss+xml" title="<?= siteName ?> » Comments Feed"
           href="../comments/feed/index.html">
     <link rel="stylesheet" id="wp-block-library-css"
           href="../wp-includes/css/dist/block-library/style.minaec2.css?ver=6.4.1" media="all">
@@ -1640,19 +1640,7 @@
             id="font-awesome-4-shim-js"></script>
 
     <!-- Google Analytics snippet added by Site Kit -->
-    <script src="https://www.googletagmanager.com/gtag/js?id=G-SFZ78NP3BR" id="google_gtagjs-js" async=""></script>
-    <script id="google_gtagjs-js-after">
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('set', 'linker', {"domains": ["wpsmartnft.com"]});
-        gtag("js", new Date());
-        gtag("set", "developer_id.dZTNiMT", true);
-        gtag("config", "G-SFZ78NP3BR");
-    </script>
 
     <!-- End Google Analytics snippet added by Site Kit -->
     <link rel="https://api.w.org/" href="../wp-json/index.html">
@@ -2559,10 +2547,10 @@
           content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
     <meta name="generator"
           content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-    <link rel="icon" href="../wp-content/uploads/2022/09/fav.png" sizes="32x32">
-    <link rel="icon" href="../wp-content/uploads/2022/09/fav.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="../wp-content/uploads/2022/09/fav.png">
-    <meta name="msapplication-TileImage" content="https://wpsmartnft.com/wp-content/uploads/2022/09/fav.png">
+    <link rel="icon" href="<?= siteIcon ?>" sizes="32x32">
+    <link rel="icon" href="<?= siteIcon ?>" sizes="192x192">
+    <link rel="apple-touch-icon" href="<?= siteIcon ?>">
+    <meta name="msapplication-TileImage" content="<?= siteIcon ?>">
     <script>function setREVStartSize(e) {
             //window.requestAnimationFrame(function() {
             window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
