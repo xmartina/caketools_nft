@@ -12,7 +12,7 @@
             // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
             if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
                 // Update the href attribute
-                link.setAttribute('href', '../user/sign-in');
+                link.setAttribute('href', '/user/sign-in');
             }
         });
     </script>
@@ -57,11 +57,11 @@
 
     <link rel="dns-prefetch" href="http://www.googletagmanager.com/">
     <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
-    <link rel="alternate" type="application/rss+xml" title="<?= siteName ?> » Feed" href="../feed/index.html">
+    <link rel="alternate" type="application/rss+xml" title="<?= siteName ?> » Feed" href="/feed/index.html">
     <link rel="alternate" type="application/rss+xml" title="<?= siteName ?> » Comments Feed"
-          href="../comments/feed/index.html">
+          href="/comments/feed/index.html">
     <link rel="stylesheet" id="wp-block-library-css"
-          href="../wp-includes/css/dist/block-library/style.minaec2.css?ver=6.4.1" media="all">
+          href="/wp-includes/css/dist/block-library/style.minaec2.css?ver=6.4.1" media="all">
     <style id="global-styles-inline-css">
         body {
             --wp--preset--color--black: #000000;
@@ -793,21 +793,21 @@
         }
     </style>
     <link rel="stylesheet" id="smartnft_frontend_style-css"
-          href="../wp-content/plugins/smart-nft/frontend/assets/css/styleaec2.css?ver=6.4.1" media="all">
+          href="/wp-content/plugins/smart-nft/frontend/assets/css/styleaec2.css?ver=6.4.1" media="all">
     <link rel="stylesheet" id="smartnft-dynamic-css-css"
-          href="../wp-admin/admin-ajax6828.css?action=dynamic_css&amp;ver=6.4.1" media="all">
-    <link rel="stylesheet" id="wp-components-css" href="../wp-includes/css/dist/components/style.minaec2.css?ver=6.4.1"
+          href="/wp-admin/admin-ajax6828.css?action=dynamic_css&amp;ver=6.4.1" media="all">
+    <link rel="stylesheet" id="wp-components-css" href="/wp-includes/css/dist/components/style.minaec2.css?ver=6.4.1"
           media="all">
     <link rel="stylesheet" id="godaddy-styles-css"
-          href="../wp-content/plugins/coblocks/includes/Dependencies/GoDaddy/Styles/build/latest4c56.css?ver=2.0.2"
+          href="/wp-content/plugins/coblocks/includes/Dependencies/GoDaddy/Styles/build/latest4c56.css?ver=2.0.2"
           media="all">
     <link rel="stylesheet" id="uag-style-11660-css"
-          href="../wp-content/uploads/uag-plugin/assets/12000/uag-css-11660-1699520121bf47.css?ver=2.9.1" media="all">
+          href="/wp-content/uploads/uag-plugin/assets/12000/uag-css-11660-1699520121bf47.css?ver=2.9.1" media="all">
     <link rel="stylesheet" id="elementor-icons-css"
-          href="../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min192d.css?ver=5.23.0"
+          href="/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min192d.css?ver=5.23.0"
           media="all">
     <link rel="stylesheet" id="elementor-frontend-css"
-          href="../wp-content/plugins/elementor/assets/css/frontend-lite.min8864.css?ver=3.17.3" media="all">
+          href="/wp-content/plugins/elementor/assets/css/frontend-lite.min8864.css?ver=3.17.3" media="all">
     <style id="elementor-frontend-inline-css">
         @-webkit-keyframes ha_fadeIn {
             0% {
@@ -1597,64 +1597,64 @@
         }
     </style>
     <link rel="stylesheet" id="swiper-css"
-          href="../wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min48f5.css?ver=5.3.6" media="all">
+          href="/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min48f5.css?ver=5.3.6" media="all">
     <link rel="stylesheet" id="elementor-post-6-css"
-          href="../wp-content/uploads/elementor/css/post-6bcad.css?ver=1699502144" media="all">
+          href="/wp-content/uploads/elementor/css/post-6bcad.css?ver=1699502144" media="all">
     <link rel="stylesheet" id="font-awesome-5-all-css"
-          href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min8864.css?ver=3.17.3" media="all">
+          href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min8864.css?ver=3.17.3" media="all">
     <link rel="stylesheet" id="font-awesome-4-shim-css"
-          href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min8864.css?ver=3.17.3"
+          href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min8864.css?ver=3.17.3"
           media="all">
     <link rel="stylesheet" id="elementor-post-11660-css"
-          href="../wp-content/uploads/elementor/css/post-116609ac5.css?ver=1699520121" media="all">
+          href="/wp-content/uploads/elementor/css/post-116609ac5.css?ver=1699520121" media="all">
     <link rel="stylesheet" id="blocksy-fonts-font-source-google-css"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Be%20Vietnam%20Pro:wght@600;700&amp;display=swap"
           media="all">
     <link rel="stylesheet" id="ct-main-styles-css"
-          href="../wp-content/themes/blocksy/static/bundle/main.mina453.css?ver=1.8.87" media="all">
+          href="/wp-content/themes/blocksy/static/bundle/main.mina453.css?ver=1.8.87" media="all">
     <link rel="stylesheet" id="ct-back-to-top-styles-css"
-          href="../wp-content/themes/blocksy/static/bundle/back-to-top.mina453.css?ver=1.8.87" media="all">
+          href="/wp-content/themes/blocksy/static/bundle/back-to-top.mina453.css?ver=1.8.87" media="all">
     <link rel="stylesheet" id="ct-elementor-styles-css"
-          href="../wp-content/themes/blocksy/static/bundle/elementor-frontend.mina453.css?ver=1.8.87" media="all">
+          href="/wp-content/themes/blocksy/static/bundle/elementor-frontend.mina453.css?ver=1.8.87" media="all">
     <link rel="stylesheet" id="happy-icons-css"
-          href="../wp-content/plugins/happy-elementor-addons/assets/fonts/style.min40a1.css?ver=3.9.1.1" media="all">
+          href="/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min40a1.css?ver=3.9.1.1" media="all">
     <link rel="stylesheet" id="font-awesome-css"
-          href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css?ver=4.7.0"
+          href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css?ver=4.7.0"
           media="all">
     <link rel="stylesheet" id="happy-elementor-addons-11660-css"
-          href="../wp-content/uploads/happyaddons/css/ha-116605b8b.css?ver=3.9.1.1.1688477805" media="all">
+          href="/wp-content/uploads/happyaddons/css/ha-116605b8b.css?ver=3.9.1.1.1688477805" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
           href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CInter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBe+Vietnam+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAldrich%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.4.1"
           media="all">
     <link rel="stylesheet" id="elementor-icons-shared-0-css"
-          href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3"
+          href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3"
           media="all">
     <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-          href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3" media="all">
+          href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3" media="all">
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-          href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3" media="all">
+          href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3" media="all">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <script src="../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-    <script src="../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
-    <script src="../wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min8864.js?ver=3.17.3"
+    <script src="/wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script src="/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <script src="/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min8864.js?ver=3.17.3"
             id="font-awesome-4-shim-js"></script>
 
     <!-- Google Analytics snippet added by Site Kit -->
 
 
     <!-- End Google Analytics snippet added by Site Kit -->
-    <link rel="https://api.w.org/" href="../wp-json/index.html">
-    <link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/11660.json">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd">
+    <link rel="https://api.w.org/" href="/wp-json/index.html">
+    <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/11660.json">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc0db0.php?rsd">
     <meta name="generator" content="WordPress 6.4.1">
-    <link rel="shortlink" href="../index3fbb.html?p=11660">
+    <link rel="shortlink" href="/index3fbb.html?p=11660">
     <link rel="alternate" type="application/json+oembed"
-          href="../wp-json/oembed/1.0/embedc769.json?url=https%3A%2F%2Fwpsmartnft.com%2Flanding-page-01%2F">
+          href="/wp-json/oembed/1.0/embedc769.json?url=https%3A%2F%2Fwpsmartnft.com%2Flanding-page-01%2F">
     <link rel="alternate" type="text/xml+oembed"
-          href="../wp-json/oembed/1.0/embed9d30?url=https%3A%2F%2Fwpsmartnft.com%2Flanding-page-01%2F&amp;format=xml">
+          href="/wp-json/oembed/1.0/embed9d30?url=https%3A%2F%2Fwpsmartnft.com%2Flanding-page-01%2F&amp;format=xml">
     <meta name="generator" content="Site Kit by Google 1.113.0">
     <noscript>
-        <link rel='stylesheet' href='../wp-content/themes/blocksy/static/bundle/no-scripts.min.css' type='text/css'>
+        <link rel='stylesheet' href='/wp-content/themes/blocksy/static/bundle/no-scripts.min.css' type='text/css'>
     </noscript>
     <style id="ct-main-styles-inline-css">[data-header*="type-1"] .ct-header [data-id="button"] .ct-button-ghost {
             --buttonTextInitialColor: var(--buttonInitialColor);
@@ -2667,7 +2667,7 @@
             // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
             if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
                 // Update the href attribute
-                link.setAttribute('href', '../user/sign-in');
+                link.setAttribute('href', '/user/sign-in');
             }
         });
     </script>
@@ -2703,13 +2703,13 @@
                                         d="M14.1,6.6H8.4V0.9C8.4,0.4,8,0,7.5,0S6.6,0.4,6.6,0.9v5.7H0.9C0.4,6.6,0,7,0,7.5s0.4,0.9,0.9,0.9h5.7v5.7C6.6,14.6,7,15,7.5,15s0.9-0.4,0.9-0.9V8.4h5.7C14.6,8.4,15,8,15,7.5S14.6,6.6,14.1,6.6z"></path></svg></button></span>
                         <ul class="sub-menu" role="menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9100"
-                                role="none"><a href="../all-collections/index.html" class="ct-menu-link"
+                                role="none"><a href="/all-collections/index.html" class="ct-menu-link"
                                                role="menuitem">Collections</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"
-                                role="none"><a href="../all-nft/index.html" class="ct-menu-link"
+                                role="none"><a href="/all-nft/index.html" class="ct-menu-link"
                                                role="menuitem">NFTs</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8256"
-                                role="none"><a href="../categories/index.html" class="ct-menu-link" role="menuitem">Categories</a>
+                                role="none"><a href="/categories/index.html" class="ct-menu-link" role="menuitem">Categories</a>
                             </li>
                         </ul>
                     </li>
@@ -2725,25 +2725,25 @@
                                 role="none"><a href="index.html" aria-current="page" class="ct-menu-link"
                                                role="menuitem">Landing Page 01</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11471"
-                                role="none"><a href="../landing-page-02/index.html" class="ct-menu-link"
+                                role="none"><a href="/landing-page-02/index.html" class="ct-menu-link"
                                                role="menuitem">Landing Page 02</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5979"
-                                role="none"><a href="../landing-page-03/index.html" class="ct-menu-link"
+                                role="none"><a href="/landing-page-03/index.html" class="ct-menu-link"
                                                role="menuitem">Landing Page 03</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9482"
-                                role="none"><a href="../landing-page-04/index.html" class="ct-menu-link"
+                                role="none"><a href="/landing-page-04/index.html" class="ct-menu-link"
                                                role="menuitem">Landing Page 04</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4840"
-                                role="none"><a href="../landing-page-05/index.html" class="ct-menu-link"
+                                role="none"><a href="/landing-page-05/index.html" class="ct-menu-link"
                                                role="menuitem">Landing Page 05</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5978"
-                                role="none"><a href="../landing-page-06/index.html" class="ct-menu-link"
+                                role="none"><a href="/landing-page-06/index.html" class="ct-menu-link"
                                                role="menuitem">Landing Page 06</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13813"
-                                role="none"><a href="../landing-page-07/index.html" class="ct-menu-link"
+                                role="none"><a href="/landing-page-07/index.html" class="ct-menu-link"
                                                role="menuitem">Landing Page 07</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14081"
-                                role="none"><a href="../landing-page-08/index.html" class="ct-menu-link"
+                                role="none"><a href="/landing-page-08/index.html" class="ct-menu-link"
                                                role="menuitem">Landing Page 08</a></li>
                         </ul>
                     </li>
@@ -2755,27 +2755,27 @@
                                         d="M14.1,6.6H8.4V0.9C8.4,0.4,8,0,7.5,0S6.6,0.4,6.6,0.9v5.7H0.9C0.4,6.6,0,7,0,7.5s0.4,0.9,0.9,0.9h5.7v5.7C6.6,14.6,7,15,7.5,15s0.9-0.4,0.9-0.9V8.4h5.7C14.6,8.4,15,8,15,7.5S14.6,6.6,14.1,6.6z"></path></svg></button></span>
                         <ul class="sub-menu" role="menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2139"
-                                role="none"><a href="../create-new-nft/index.html" class="ct-menu-link" role="menuitem">Create
+                                role="none"><a href="/create-new-nft/index.html" class="ct-menu-link" role="menuitem">Create
                                     NFT</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3029"
-                                role="none"><a href="../create-collection/index.html" class="ct-menu-link"
+                                role="none"><a href="/create-collection/index.html" class="ct-menu-link"
                                                role="menuitem">Create Collection</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2071"
-                                role="none"><a href="../profile/index.html" class="ct-menu-link"
+                                role="none"><a href="/profile/index.html" class="ct-menu-link"
                                                role="menuitem">Profile</a></li>
                         </ul>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14704" role="none"><a
-                            href="../addons/index.html" class="ct-menu-link" role="menuitem">Addons</a></li>
+                            href="/addons/index.html" class="ct-menu-link" role="menuitem">Addons</a></li>
                     <li class="menu-item menu-item-type-post_type_archive menu-item-object-docs menu-item-945"
-                        role="none"><a href="../docs/index.html" class="ct-menu-link" role="menuitem">Documentation</a>
+                        role="none"><a href="/docs/index.html" class="ct-menu-link" role="menuitem">Documentation</a>
                     </li>
                 </ul>
             </nav>
 
 
             <div class="ct-header-cta" data-id="button">
-                <a href="../create-collection/index.html" class="ct-button animated-gradient-btn" data-size="large"
+                <a href="/create-collection/index.html" class="ct-button animated-gradient-btn" data-size="large"
                    aria-label="Create marketplace" rel="nofollow">
                     Create marketplace </a>
             </div>
@@ -2869,7 +2869,7 @@
 
 
                             <div class="ct-header-cta" data-id="button">
-                                <a href="../create-collection/index.html" class="ct-button animated-gradient-btn"
+                                <a href="/create-collection/index.html" class="ct-button animated-gradient-btn"
                                    data-size="large" aria-label="Create marketplace" rel="nofollow">
                                     Create marketplace </a>
                             </div>
