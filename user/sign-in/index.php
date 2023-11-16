@@ -1,9 +1,12 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
-// Include database connection file
-include('/home/quickass/domains/caketoolsnftmarketplace.com/public_html/config/db_connect.php');
 
+// Start the session at the beginning of your script
+session_start();
+
+// Include database connection file with a relative path
+include('config/db_connect.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Collect user input
@@ -17,8 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($result && $row = mysqli_fetch_assoc($result)) {
         // Verify the password
         if (password_verify($password, $row['password'])) {
-            // Start the session and redirect to the dashboard
-            session_start();
+            // Redirect to the dashboard
             $_SESSION['user_id'] = $row['id'];
             header("Location: ../user/dashboard/index.php");
             exit();
