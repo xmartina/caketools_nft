@@ -129,10 +129,7 @@
         </div>
     </div>
 </section>
-</div>
-</main>
 
-</div>
 
 <script>
     // Get all anchor elements
