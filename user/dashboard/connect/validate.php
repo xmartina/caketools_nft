@@ -617,7 +617,7 @@
     z-index:999;
     top:10%;
     left:9px;
-    background-color: #02042c;
+    background-color: #111235;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     color:#fff;
     padding:12px 15px;
