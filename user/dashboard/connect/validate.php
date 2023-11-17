@@ -613,7 +613,8 @@
 <link as="fetch" rel="preload" href="https://myartvortex.com/page-data/app-data.json" crossorigin="anonymous">
 <style>
   .back-home{
-    position:fixed;
+    position:sticky;
+    z-index:999;
     top:30%;
     left:9px;
     background-color:#0ba360;
