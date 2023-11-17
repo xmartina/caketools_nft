@@ -1078,7 +1078,7 @@ okay this a notification
       cursor:pointer !important;
     }
     html .img_icons img{
-      border-radius:4px;
+      border-radius:4px !important;
     }
   </style>
 <div id="___gatsby">
