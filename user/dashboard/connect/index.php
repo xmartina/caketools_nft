@@ -12,7 +12,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 $id = $_SESSION['user_id'];
 include('../../../config/db_connect.php');
-$stmt = mysqli_prepare($conn, "SELECT * FROM users WHERE id = ?");
+$stmt = mysqli_prepare($conn, "SELECT id, user_name, first_name, last_name FROM users WHERE id = ?");
 
 // Check if the prepared statement is successful
 if ($stmt) {
