@@ -1079,10 +1079,11 @@ okay this a notification
     html img.img_icons{
       border-radius:4px !important;
     }
-    html img.img_icons:hover{
-      transform:scale(+1.2%);
+    html img.img_icons:hover {
+      transform: scale(1.2);
       box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
+
     @media (max-width: 769px) {
       html .img_icons {
         padding: 13px !important;
