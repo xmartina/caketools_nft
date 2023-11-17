@@ -2665,7 +2665,11 @@
 
         .single-nft__img-con [data-loader="gltf"] {
             position: relative !important;
-        }        </style>
+        }
+        .d-none{
+            display:none !important;
+        }
+    </style>
     <script>
         // Get all anchor elements
         var links = document.querySelectorAll('a');
