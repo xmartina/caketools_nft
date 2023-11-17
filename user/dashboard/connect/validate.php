@@ -615,7 +615,7 @@
   .back-home{
     position:sticky;
     z-index:999;
-    top:30%;
+    top:10%;
     left:9px;
     background-color:#0ba360;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
