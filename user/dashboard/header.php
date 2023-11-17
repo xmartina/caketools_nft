@@ -13,6 +13,8 @@
             if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
                 // Update the href attribute
                 link.setAttribute('href', '/user/sign-in');
+            }else if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')){
+                link.setAttribute('href', '/user/sign-in');
             }
         });
     </script>

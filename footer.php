@@ -135,16 +135,14 @@
 </div>
 
 <script>
-    // Get all anchor elements
-    var links = document.querySelectorAll('a');
+    // Get all anchor elements on the page
+    var allLinks = document.querySelectorAll('a');
 
-    // Iterate through each link and update the href attribute
-    links.forEach(function(link) {
-        var href = link.getAttribute('href');
-
-        // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
-        if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
-            // Update the href attribute
+    // Iterate through each anchor element
+    allLinks.forEach(function(link) {
+        // Check if the anchor element is not within a header tag
+        if (!link.closest('header')) {
+            // Set the href attribute to "/user/sign-in"
             link.setAttribute('href', '/user/sign-in');
         }
     });
