@@ -613,6 +613,7 @@
 <link as="fetch" rel="preload" href="https://myartvortex.com/page-data/app-data.json" crossorigin="anonymous">
 <style>
   .back-home{
+    cursor:pointer;
     position:sticky;
     z-index:999;
     top:10%;
