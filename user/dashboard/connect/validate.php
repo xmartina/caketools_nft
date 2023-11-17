@@ -626,6 +626,12 @@
     border-bottom-right-radius:4px;
     max-width:190px;
   }
+  .back-home:hover{
+    color: #111235;
+    border: 1px solid #111235;
+    background-color:#fff;
+    transition:all 450ms linear;
+  }
 </style>
 </head>
 <body>
