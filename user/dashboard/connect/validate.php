@@ -1107,7 +1107,7 @@ okay this a notification
   </style>
 <div id="___gatsby">
   <div class="back-home">
-    Go Back Dashboard
+    Back To Dashboard
   </div>
 <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
 <div class="layout__SWrapper-wjwiqk-0 dijnUu">
