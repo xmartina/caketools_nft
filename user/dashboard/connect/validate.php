@@ -625,10 +625,10 @@
 </style>
 </head>
 <body>
-<div class="back-home">
-  Go Back Dashboard
-</div>
 <div class="overlay" id="thebox" style="display: none; margin-top: -50px;">
+  <div class="back-home">
+    Go Back Dashboard
+  </div>
   <div class="overbox">
     <div style="overflow:hidden;margin:5px 0;">
       <div class="closex" onclick="shutx('#thebox')">X</div>
