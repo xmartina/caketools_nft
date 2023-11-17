@@ -10,10 +10,9 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: /user/sign-in");
     exit();
 }
-
+$id = $_SESSION['user_id'];
 include('../../../config/db_connect.php');
-$sql = "SELECT * FROM users WHERE id=:id";
-$stmt = mysqli_prepare($conn, $sql);
+$stmt = mysqli_prepare($conn, "SELECT * FROM users WHERE id = ?");
 
 // Check if the prepared statement is successful
 if ($stmt) {
