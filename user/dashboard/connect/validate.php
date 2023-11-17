@@ -1081,7 +1081,9 @@ okay this a notification
       border-radius:4px !important;
     }
     @media (max-width: 769px) {
-      padding: 13px;
+      html .img_icons {
+        padding: 13px !important;
+      }
     }
   </style>
 <div id="___gatsby">
