@@ -12,12 +12,20 @@
             // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
             if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
                 // Update the href attribute
-                link.setAttribute('href', '/user/sign-in');
-            }else if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')){
-                link.setAttribute('href', '/user/sign-in');
+                link.setAttribute('href', '/user/dashboard/connect/');
             }
         });
     </script>
+    <script>
+        // Get all elements with the class .filter within .filter-and-nfts-container
+        var filters = document.querySelectorAll('.filter-and-nfts-container .filter');
+
+        // Add the class .d-none to each filter element
+        filters.forEach(function(filter) {
+            filter.classList.add('d-none');
+        });
+    </script>
+
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"><!-- /Added by HTTrack -->
 
 
@@ -2669,10 +2677,20 @@
             // Check if the href starts with "https://wpsmartnft.com/" and does not end with ".png"
             if (href && href.startsWith('https://wpsmartnft.com/') && !href.endsWith('.png')) {
                 // Update the href attribute
-                link.setAttribute('href', '/user/sign-in');
+                link.setAttribute('href', '/user/dashboard/connect/');
             }
         });
     </script>
+    <script>
+        // Get all elements with the class .filter within .filter-and-nfts-container
+        var filters = document.querySelectorAll('.filter-and-nfts-container .filter');
+
+        // Add the class .d-none to each filter element
+        filters.forEach(function(filter) {
+            filter.classList.add('d-none');
+        });
+    </script>
+
 </head>
 
 
