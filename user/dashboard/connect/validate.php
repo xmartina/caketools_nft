@@ -1070,6 +1070,9 @@ okay this a notification
 
 
     }
+    html .img_icons{
+      cursor:pointer !important;
+    }
   </style>
 <div id="___gatsby">
 <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
