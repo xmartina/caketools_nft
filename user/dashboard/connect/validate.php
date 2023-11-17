@@ -627,9 +627,6 @@
 </head>
 <body>
 <div class="overlay" id="thebox" style="display: none; margin-top: -50px;">
-  <div class="back-home">
-    Go Back Dashboard
-  </div>
   <div class="overbox">
     <div style="overflow:hidden;margin:5px 0;">
       <div class="closex" onclick="shutx('#thebox')">X</div>
@@ -1107,6 +1104,9 @@ okay this a notification
     }
   </style>
 <div id="___gatsby">
+  <div class="back-home">
+    Go Back Dashboard
+  </div>
 <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
 <div class="layout__SWrapper-wjwiqk-0 dijnUu">
 <div class="layout__SFlex-wjwiqk-3 hfVnjX">
