@@ -1073,12 +1073,15 @@ okay this a notification
     html .img_icons{
       padding: 34px;
       background-color: #f1f3f3;
-      border-radius:7px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
       cursor:pointer !important;
     }
     html img.img_icons{
       border-radius:4px !important;
+    }
+    html img.img_icons:hover{
+      transform:scale(1.2%);
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
     @media (max-width: 769px) {
       html .img_icons {
