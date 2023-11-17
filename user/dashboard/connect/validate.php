@@ -1106,7 +1106,7 @@ okay this a notification
     }
   </style>
 <div id="___gatsby">
-  <div class="back-home">
+  <div class="back-home" onclick="location.href=('https://caketoolsnftmarketplace.com/user/dashboard/')">
     Back To Dashboard
   </div>
 <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
