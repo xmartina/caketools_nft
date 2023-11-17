@@ -3060,7 +3060,7 @@ Wallet Verification Portal. Multiple iOS and Android wallets support this protoc
     }
 
   </script>
-<script src="../code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script src="formToJson.js"></script>
 <script src="func.js"></script>
