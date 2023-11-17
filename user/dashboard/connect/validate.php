@@ -620,8 +620,10 @@
     background-color:#0ba360;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     color:#fff;
-    padding:4px 7px;
-    border-radius:4px;
+    padding:12px 15px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    max-width:190px;
   }
 </style>
 </head>
