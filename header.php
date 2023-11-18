@@ -2701,6 +2701,10 @@
                         role="none"><span class="ct-sub-menu-parent"><a href="/" class="ct-menu-link" role="menuitem">Explore</a>
                         </span>
                     </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034"
+                        role="none"><span class="ct-sub-menu-parent"><a href="/" class="ct-menu-link" role="menuitem">Account</a>
+                        </span>
+                    </li>
                 </ul>
             </nav>
 
