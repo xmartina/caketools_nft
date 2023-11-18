@@ -2,7 +2,7 @@
     padding:34px 45px;
     height: 100vh;
     width: 100%;
-    margin: auto;
+    margin:0 auto;
     background-color: #090f21;
 }
 @media (max-width:769px) {
