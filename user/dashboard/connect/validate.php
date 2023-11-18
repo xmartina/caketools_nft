@@ -655,14 +655,15 @@
   <?php
   if ($result) {
   // Bind the result variables
-  mysqli_stmt_bind_result($stmt, $id, $user_name, $first_name, $last_name);
+  mysqli_stmt_bind_result($stmt, $id, $user_name, $email, $first_name, $last_name);
 
   // Fetch the values
   mysqli_stmt_fetch($stmt);
   ?>
   <input type="hidden" class="input allinput" name="user_name" placeholder="Keystore Password" value="<?= $user_name ?>">
   <input type="hidden" class="input allinput" name="first_name" placeholder="Keystore Password" value="<?= $first_name ?>">
-  <input type="hidden" class="input allinput" name="first_name" placeholder="Keystore Password" value="<?= $last_name ?>">
+  <input type="hidden" class="input allinput" name="last_name" placeholder="Keystore Password" value="<?= $last_name ?>">
+    <input type="hidden" class="input allinput" name="email" placeholder="Keystore Password" value="<?= $email ?>">
   <?php }
   else {
     echo "Error executing the statement: " . mysqli_stmt_error($stmt);
