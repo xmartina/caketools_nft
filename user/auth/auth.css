@@ -46,10 +46,10 @@ body{
     cursor:pointer;
 }
 .have-acct:hover{
-    color:#0A1420;
-    background-color:#fff;
-    border:1px solid #0A1420;
-    transition: all 350ms linear;
+    color:#0A1420!important;
+    background-color:#fff!important;
+    border:1px solid #0A1420 !important;
+    transition: all 350ms linear !important;
 }
 .form-wrap form{
     width:360px;
@@ -62,6 +62,20 @@ form input{}
         width:95%;
     }
 }
+.form-wrap form label{
+    font-weight:bold;
+    font-size:14px
+}
 .form-wrap form input{
     width:100%;
+    background-color: #dadcdc;
+    color:#0A1420;
+    padding: 0 6px;
+    margin: auto;
+    border-radius: 4px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
+    -o-box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
 }

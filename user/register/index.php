@@ -9,7 +9,7 @@ require_once('../auth/header.php'); ?>
                 Login to Account</div>
             <div class="pt-3"></div>
             <div class="form-group">
-                <div class="row">
+                <div class="row gy-1">
                     <div class="col-6">
                         <label for="">First Name
                             <input type="text" name="first_name" required>
@@ -23,7 +23,7 @@ require_once('../auth/header.php'); ?>
                 </div>
             </div>
             <div class="form-group">
-                <div class="row">
+                <div class="row gy-1">
                     <div class="col-lg-6">
                         <label for="">User Name
                         <input type="text" name="user_name" required>
@@ -37,7 +37,7 @@ require_once('../auth/header.php'); ?>
                 </div>
             </div>
             <div class="form-group">
-                <div class="row">
+                <div class="row gy-1">
                     <div class="col-12">
                         <label for="">Password
                             <input type="password" name="password" required>
