@@ -17,9 +17,8 @@ body{
     }
 }
 .form-wrap{
-    margin:auto;
-    max-width: 600px;
-    max-height: 500px;
+    width: 600px;
+    height: 500px;
     background-color: #fff;
     color: #0A1420;
 }
