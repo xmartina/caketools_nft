@@ -14,17 +14,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Insert user data into the database
     $sql = "INSERT INTO users (user_name, password, email, first_name, last_name) VALUES ('$user_name', '$password', '$email', '$first_name', '$last_name')";
-    if (mysqli_query($conn, $sql)) { ?>
-       <script>
-           var successMsg = document.querySelector('.form-wrap .success-msg');
-           successMsg.classList.remove('d-none');
-       </script>
-    <?php } else { ?>
-        <script>
-            var errorMsg = document.querySelector('.form-wrap .error-msg');
-            errorMsg.classList.remove('d-none');
-        </script>
-    <?php }
+    if (mysqli_query($conn, $sql)) {
+        echo '<script>
+            var successMsg = document.querySelector(\'.form-wrap .success-msg\');
+            successMsg.classList.remove(\'d-none\');
+          </script>';
+    } else {
+        echo '<script>
+            var errorMsg = document.querySelector(\'.form-wrap .error-msg\');
+            errorMsg.classList.remove(\'d-none\');
+          </script>';
+    }
 }
 
 // Close the database connection
