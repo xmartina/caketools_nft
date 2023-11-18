@@ -2737,14 +2737,6 @@
                     </li>
                 </ul>
             </nav>
-
-
-            <div class="ct-header-cta" data-id="button">
-                <a href="/create-collection/index.html" class="ct-button animated-gradient-btn" data-size="large"
-                   aria-label="Create marketplace" rel="nofollow">
-                    Create marketplace </a>
-            </div>
-
             <div class="ct-header-text " data-id="text">
                 <div class="entry-content">
                     <p>Join the community</p></div>
@@ -2844,12 +2836,6 @@
                                 </ul>
                             </nav>
 
-
-                            <div class="ct-header-cta" data-id="button">
-                                <a href="/create-collection/index.html" class="ct-button animated-gradient-btn"
-                                   data-size="large" aria-label="Create marketplace" rel="nofollow">
-                                    Create marketplace </a>
-                            </div>
                         </div>
                     </div>
                 </div>
