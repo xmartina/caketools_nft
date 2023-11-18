@@ -42,7 +42,10 @@ body{
 .form-wrap h2 .success-msg{
     font-size:13px;
     font-weight:bold;
-
+}
+.form-wrap h2 .error-msg{
+    font-size:13px;
+    font-weight:bold;
 }
 .have-acct{
     width:190px;
