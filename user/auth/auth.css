@@ -94,3 +94,9 @@ form input{}
     background-color: #0A1420;
     color:#fff5f5;
 }
+.form-wrap form input[type="submit"]:hover{
+    background-color:#fff5f5;
+    color:#0A1420;
+    transition:all 230ms ease-in-out;
+    transform: scale(1.1);
+}
