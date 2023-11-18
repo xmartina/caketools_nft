@@ -2,7 +2,6 @@
 $pageTitle = 'User Registration';
 require_once('../auth/header.php'); ?>
 <div class="main-form d-flex align-items-center justify-content-center">
-    <div class="pt-5"></div>
     <div class="form-wrap d-flex align-items-center flex-column px-4 pt-5">
         <h2 class="py-5">User Registration</h2>
         <form method="post" action="">
