@@ -38,6 +38,8 @@ elseif (isset($_POST['login'])) {
         if (password_verify($password, $row['password'])) {
             // Redirect to the dashboard
             $_SESSION['user_id'] = $row['id'];
+            header('Location: /user/sign-in/?login-success');
+            sleep(1.5);
             header("Location: ../../user/dashboard");
             exit();
         } else {

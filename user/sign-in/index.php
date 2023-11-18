@@ -32,6 +32,10 @@
                 echo '<div class="error-msg text-danger">
                             Sorry this user was not found, please check and try again
                           </div>';
+            } elseif (isset($_GET['login-success'])){
+                echo '<div class="success-msg text-success">
+                            login successful, <a href="/user/dashboard">redirecting to dashboard</a>
+                          </div>';
             }
             ?>
         </h2>
