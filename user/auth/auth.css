@@ -51,6 +51,9 @@ body{
     border:1px solid #0A1420;
     transition: all 350ms linear;
 }
+.form-wrap form{
+    width:inherit;
+}
 .form-wrap form input{
 
 }
