@@ -3,7 +3,7 @@ html{
 }
 .main-form{
     padding:34px 45px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin:0 auto;
     background-color: #090f21;
@@ -14,9 +14,9 @@ html{
     }
 }
 .form-wrap{
-    margin:30px auto;
+    margin:auto;
     max-width: 600px;
-    height: 100%;
+    max-height: 700px;
     background-color: #fff;
     color: #0A1420;
 }
