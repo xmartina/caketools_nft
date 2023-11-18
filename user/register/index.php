@@ -6,7 +6,7 @@
     <!-- Bootstrap 4 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/user/auth/auth.css">
-    <title><?= $pageTitle ?></title>
+    <title>User Register</title>
 </head>
 <body>
 <?php require_once('../auth/header.php'); ?>

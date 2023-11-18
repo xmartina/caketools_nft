@@ -6,6 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 4 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/user/auth/auth.css">
     <?php
     session_start();
     if (isset($_SESSION['user_id'])) {
@@ -17,19 +20,9 @@
 </head>
 
 <body>
-<h2>User Login</h2>
-<form method="post" action="">
-    User Name or Email: <input type="text" name="user_input" required><br>
-    Password: <input type="password" name="password" required><br>
-    <input type="submit" value="Login" name="login">
-    <div class="sign-up">don't have an account? <a href="/user/register"> signup</a></div>
-</form>
-</body>
-</html>
-
 <div class="main-form d-flex align-items-center justify-content-center">
     <div class="form-wrap d-flex align-items-center flex-column px-4">
-        <h2 class="pt-5 pb-3">User Registration
+        <h2 class="pt-5 pb-3">User Login
             <?php
             if (isset($_GET['wrong-pass'])) {
                 echo '<div class="error-msg text-danger">
