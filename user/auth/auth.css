@@ -80,6 +80,11 @@ form input{}
     -moz-box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
     -o-box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
 }
+@media (max-width: 769px) {
+    .form-wrap form input {
+        width: inherit;
+    }
+}
 .form-wrap form input:hover{
     border:1px solid #0b2e58;
     background-color: #fcfffc;
