@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         echo '<script>
         setTimeout(function(){
-            window.location.href = "/user/register/?=success";
+            window.location.href = "/user/register/?success";
         }, 300);
       </script>';
         if ($_SERVER['REQUEST_URI'] == "/user/register/?success") {
