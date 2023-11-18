@@ -2701,20 +2701,6 @@
                         role="none"><span class="ct-sub-menu-parent"><a href="/" class="ct-menu-link" role="menuitem">Explore</a>
                         </span>
                     </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034"
-                        role="none"><span class="ct-sub-menu-parent"><a href="/" class="ct-menu-link" role="menuitem">Explore</a>
-                        </span>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034"
-                        role="none"><span class="ct-sub-menu-parent"><a href="javascript:void(0);" class="ct-menu-link" role="menuitem">
-                                Logout
-                                <form method="post" action="">
-                                    Logout
-                                    <input type="submit" value="Logout" name="logout">
-                                </form>
-                            </a>
-                        </span>
-                    </li>
                 </ul>
             </nav>
 
@@ -2820,20 +2806,6 @@
                                     <li id="menu-item-3034"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
                                         role="none"><a href="/user/dashboard" class="ct-menu-link" role="menuitem">Explore</a>
-                                    </li>
-                                    <li id="menu-item-3034"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
-                                        role="none"><a href="/user/dashboard" class="ct-menu-link" role="menuitem">Explore</a>
-                                    </li>
-                                    <li id="menu-item-3034"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
-                                        role="none"><a href="javascript:void(0);" class="ct-menu-link" role="menuitem">
-                                            Logout
-                                            <form method="post" action="">
-                                                Logout
-                                                <input type="submit" value="Logout" name="logout">
-                                            </form>
-                                        </a>
                                     </li>
                                 </ul>
                             </nav>
