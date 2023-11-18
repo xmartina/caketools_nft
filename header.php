@@ -2704,6 +2704,7 @@
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034"
                         role="none"><span class="ct-sub-menu-parent"><a href="javascript:void(0);" class="ct-menu-link" role="menuitem">
                                 <form method="post" action="">
+                                    Logout
                                     <input type="submit" value="Logout" name="logout">
                                 </form>
                             </a>
@@ -2819,6 +2820,7 @@
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
                                         role="none"><a href="javascript:void(0);" class="ct-menu-link" role="menuitem">
                                             <form method="post" action="">
+                                                Logout
                                                 <input type="submit" value="Logout" name="logout">
                                             </form>
                                         </a>
