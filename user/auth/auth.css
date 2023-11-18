@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+}
+
 html {
     height: 100%;
 }
@@ -25,4 +34,16 @@ body{
     .form-wrap{
         max-width: 97%;
     }
+}
+.form-wrap h2{
+    font-weight:bold;
+    font-size: 23px;
+}
+.have-acct{
+    max-width:200px;
+    height:67px;
+    font-size:14px;
+}
+.form-wrap form input{
+
 }
