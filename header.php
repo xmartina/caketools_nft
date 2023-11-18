@@ -2804,6 +2804,10 @@
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
                                         role="none"><a href="/user/dashboard" class="ct-menu-link" role="menuitem">Explore</a>
                                     </li>
+                                    <li id="menu-item-3034"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3034 animated-submenu"
+                                        role="none"><a href="/user/dashboard" class="ct-menu-link" role="menuitem">Account</a>
+                                    </li>
                                 </ul>
                             </nav>
 
