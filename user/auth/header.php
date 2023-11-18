@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
 // Include database connection file
 include('../../config/db_connect.php');
 
@@ -14,55 +12,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Insert user data into the database
     $sql = "INSERT INTO users (user_name, password, email, first_name, last_name) VALUES ('$user_name', '$password', '$email', '$first_name', '$last_name')";
+
     if (mysqli_query($conn, $sql)) {
-
-        echo "Registration success";
-        if ($_SERVER['REQUEST_URI'] == "/user/register/?success") {
-            echo "Registration success";
-        }
-        echo '<script>
-        setTimeout(function(){
-            window.location.href = "/user/register/?success";
-        }, 300);
-      </script>';
-        if ($_SERVER['REQUEST_URI'] == "/user/register/?success") {
-            echo '<script>
-        var successMsg = document.querySelector(\'.success-msg\');
-        successMsg.classList.remove(\'d-none\');
-      </script>';
-        }
+        // Registration success
+        header('Location: /user/register/?success');
+        exit();
     } else {
-        echo '<script>
-        setTimeout(function(){
-            window.location.href = "/user/register/?error_reg";
-        }, 300);
-      </script>';
-
-        if ($_SERVER['REQUEST_URI'] == "/user/register/?error_reg") {
-            echo '<script>
-        var errorMsg = document.querySelector(\'.error-msg\');
-        errorMsg.classList.remove(\'d-none\');
-      </script>';
-        }
+        // Registration failed
+        header('Location: /user/register/?error_reg');
+        exit();
     }
 }
 
 // Close the database connection
 mysqli_close($conn);
 ?>
-
-<!-- HTML form for registration -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap 4 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="/user/auth/auth.css">
-
-    <title><?= $pageTitle ?></title>
-</head>
-<body>
