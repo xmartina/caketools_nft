@@ -1,0 +1,24 @@
+.main-form{
+    padding:34px 45px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #090f21;
+}
+@media (max-width:769px) {
+    .main-form{
+        padding:4px 15px
+    }
+}
+.form-wrap{
+    margin:30px auto;
+    max-width: 600px;
+    height: 100%;
+    background-color: #fff;
+    color: #0A1420;
+}
+@media (max-width: 769px) {
+    .form-wrap{
+        max-width: 97%;
+    }
+}
