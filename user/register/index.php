@@ -8,7 +8,7 @@ require_once('../auth/header.php'); ?>
         <form method="post" action="">
             <div class="have-acct rounded d-flex align-items-center justify-content-evenly bg-primary text-white"><span class="material-symbols-outlined">person</span>
                 Login to Account</div>
-            <div class="py-5"></div>
+            <div class="pt-3"></div>
             User Name: <input type="text" name="user_name" required><br>
             Password: <input type="password" name="password" required><br>
             Email: <input type="email" name="email" required><br>
