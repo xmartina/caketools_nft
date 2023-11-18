@@ -15,11 +15,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Insert user data into the database
     $sql = "INSERT INTO users (user_name, password, email, first_name, last_name) VALUES ('$user_name', '$password', '$email', '$first_name', '$last_name')";
     if (mysqli_query($conn, $sql)) {
+
+        echo '<script>
+        setTimeout(function(){
+            window.location.href = "/user/register/";
+        }, 3000);
+      </script>';
+
         echo '<script>
         var successMsg = document.querySelector(\'.success-msg\');
         successMsg.classList.remove(\'d-none\');
       </script>';
     } else {
+        echo '<script>
+        setTimeout(function(){
+            window.location.href = "/user/register/";
+        }, 3000);
+      </script>';
+
         echo '<script>
         var errorMsg = document.querySelector(\'.error-msg\');
         errorMsg.classList.remove(\'d-none\');
