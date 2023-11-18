@@ -5,9 +5,10 @@ require_once('../auth/header.php'); ?>
     <div class="pt-5"></div>
     <div class="form-wrap d-flex align-items-center flex-column px-4 pt-5">
         <h2 class="py-5">User Registration</h2>
-        <div class="have-acct p-4 rounded d-flex align-items-center justify-content-evenly bg-primary text-white"><span class="material-symbols-outlined">person</span>
-            Login to Account</div>
         <form method="post" action="">
+            <div class="have-acct rounded d-flex align-items-center justify-content-evenly bg-primary text-white"><span class="material-symbols-outlined">person</span>
+                Login to Account</div>
+            <div class="py-5"></div>
             User Name: <input type="text" name="user_name" required><br>
             Password: <input type="password" name="password" required><br>
             Email: <input type="email" name="email" required><br>
