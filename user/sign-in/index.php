@@ -64,7 +64,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-8">
-                        <input type="submit" value="login" name="login">
+                        <input type="submit" value="Login" name="login">
                     </div>
                 </div>
             </div>
