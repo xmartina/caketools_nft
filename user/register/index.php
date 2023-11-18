@@ -70,7 +70,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-8">
-                        <input type="submit" value="Register">
+                        <input type="submit" value="Register" name="register">
                     </div>
                 </div>
             </div>

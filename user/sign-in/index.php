@@ -1,43 +1,4 @@
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
 
-// Start the session at the beginning of your script
-session_start();
-if (isset($_SESSION['user_id'])) {
-    header("Location: ../../user/dashboard");
-    exit();
-}
-// Include database connection file with a relative path
-include('../../config/db_connect.php');
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Collect user input
-    $user_input = $_POST['user_input'];
-    $password = $_POST['password'];
-
-    // Check user credentials
-    $sql = "SELECT * FROM users WHERE user_name = '$user_input' OR email = '$user_input'";
-    $result = mysqli_query($conn, $sql);
-
-    if ($result && $row = mysqli_fetch_assoc($result)) {
-        // Verify the password
-        if (password_verify($password, $row['password'])) {
-            // Redirect to the dashboard
-            $_SESSION['user_id'] = $row['id'];
-            header("Location: ../../user/dashboard");
-            exit();
-        } else {
-            echo "Incorrect password.";
-        }
-    } else {
-        echo "User not found.";
-    }
-}
-
-// Close the database connection
-mysqli_close($conn);
-?>
 
 <!-- HTML form for login -->
 <!DOCTYPE html>
@@ -45,15 +6,73 @@ mysqli_close($conn);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php
+    session_start();
+    if (isset($_SESSION['user_id'])) {
+        header("Location: ../../user/dashboard");
+        exit();
+    }
+    require_once ('../auth/header.php');?>
     <title>User Login</title>
 </head>
+
 <body>
 <h2>User Login</h2>
 <form method="post" action="">
     User Name or Email: <input type="text" name="user_input" required><br>
     Password: <input type="password" name="password" required><br>
-    <input type="submit" value="Login">
+    <input type="submit" value="Login" name="login">
     <div class="sign-up">don't have an account? <a href="/user/register"> signup</a></div>
 </form>
 </body>
 </html>
+
+<div class="main-form d-flex align-items-center justify-content-center">
+    <div class="form-wrap d-flex align-items-center flex-column px-4">
+        <h2 class="pt-5 pb-3">User Registration
+            <?php
+            if (isset($_GET['wrong-pass'])) {
+                echo '<div class="error-msg text-danger">
+                            your password is incorrect, please check and try again
+                          </div>';
+            } elseif (isset($_GET['no-user'])) {
+                echo '<div class="error-msg text-danger">
+                            Sorry this user was not found, please check and try again
+                          </div>';
+            }
+            ?>
+        </h2>
+        <form method="post" action="">
+            <div onclick="location.href='https://caketoolsnftmarketplace.com/user/register'" class="have-acct rounded d-flex align-items-center justify-content-evenly bg-primary text-white"><div class="icon-g"><span class="material-symbols-outlined px-3">person</span></div>
+                Register An Account</div>
+            <div class="pt-3"></div>
+            <div class="form-group">
+                <div class="row ">
+                    <div class="col-lg-12">
+                        <label for="">Email or Username
+                            <input type="text" name="user_input" required>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <label for="">Password
+                            <input type="password" name="password" required>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-8">
+                        <input type="submit" value="login" name="login">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<?php require_once('../auth/footer.php'); ?>
+

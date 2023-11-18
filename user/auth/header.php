@@ -2,7 +2,7 @@
 // Include database connection file
 include('../../config/db_connect.php');
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if (isset($_POST['register'])) {
     // Collect user input
     $user_name = $_POST['user_name'];
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT); // Hash the password
@@ -24,6 +24,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
+elseif (isset($_POST['login'])) {
+    // Collect user input
+    $user_input = $_POST['user_input'];
+    $password = $_POST['password'];
+
+    // Check user credentials
+    $sql = "SELECT * FROM users WHERE user_name = '$user_input' OR email = '$user_input'";
+    $result = mysqli_query($conn, $sql);
+
+    if ($result && $row = mysqli_fetch_assoc($result)) {
+        // Verify the password
+        if (password_verify($password, $row['password'])) {
+            // Redirect to the dashboard
+            $_SESSION['user_id'] = $row['id'];
+            header("Location: ../../user/dashboard");
+            exit();
+        } else {
+            header('Location: /user/sign-in/?wrong-pass');
+            exit();
+        }
+    } else {
+        header('Location: /user/sign-in/?no-user');
+        exit();
+    }
+}
 // Close the database connection
 mysqli_close($conn);
 ?>
