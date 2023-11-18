@@ -40,8 +40,8 @@ body{
     font-size: 23px;
 }
 .have-acct{
-    max-width:200px;
-    height:67px;
+    width:190px;
+    height:120px;
     font-size:14px;
 }
 .form-wrap form input{
