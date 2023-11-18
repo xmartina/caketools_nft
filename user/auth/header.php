@@ -16,14 +16,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql = "INSERT INTO users (user_name, password, email, first_name, last_name) VALUES ('$user_name', '$password', '$email', '$first_name', '$last_name')";
     if (mysqli_query($conn, $sql)) {
         echo '<script>
-            var successMsg = document.querySelector(\'.form-wrap .success-msg\');
-            successMsg.classList.remove(\'d-none\');
-          </script>';
+        var successMsg = document.querySelector(\'.success-msg\');
+        successMsg.classList.remove(\'d-none\');
+      </script>';
     } else {
         echo '<script>
-            var errorMsg = document.querySelector(\'.form-wrap .error-msg\');
-            errorMsg.classList.remove(\'d-none\');
-          </script>';
+        var errorMsg = document.querySelector(\'.error-msg\');
+        errorMsg.classList.remove(\'d-none\');
+      </script>';
     }
 }
 
