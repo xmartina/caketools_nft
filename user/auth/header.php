@@ -15,27 +15,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Insert user data into the database
     $sql = "INSERT INTO users (user_name, password, email, first_name, last_name) VALUES ('$user_name', '$password', '$email', '$first_name', '$last_name')";
     if (mysqli_query($conn, $sql)) {
+
         echo '<script>
+        setTimeout(function(){
+            window.location.href = "/user/register/?=success";
+        }, 300);
+      </script>';
+        if ($_SERVER['REQUEST_URI'] == "/user/register/?success") {
+            echo '<script>
         var successMsg = document.querySelector(\'.success-msg\');
         successMsg.classList.remove(\'d-none\');
       </script>';
-
-        echo '<script>
-        setTimeout(function(){
-            window.location.href = "/user/register/";
-        }, 3000);
-      </script>';
+        }
     } else {
         echo '<script>
+        setTimeout(function(){
+            window.location.href = "/user/register/?error_reg";
+        }, 300);
+      </script>';
+
+        if ($_SERVER['REQUEST_URI'] == "/user/register/?error_reg") {
+            echo '<script>
         var errorMsg = document.querySelector(\'.error-msg\');
         errorMsg.classList.remove(\'d-none\');
       </script>';
-
-        echo '<script>
-        setTimeout(function(){
-            window.location.href = "/user/register/";
-        }, 3000);
-      </script>';
+        }
     }
 }
 
