@@ -16,6 +16,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql = "INSERT INTO users (user_name, password, email, first_name, last_name) VALUES ('$user_name', '$password', '$email', '$first_name', '$last_name')";
     if (mysqli_query($conn, $sql)) {
 
+        echo "Registration success";
+        if ($_SERVER['REQUEST_URI'] == "/user/register/?success") {
+            echo "Registration success";
+        }
         echo '<script>
         setTimeout(function(){
             window.location.href = "/user/register/?success";
