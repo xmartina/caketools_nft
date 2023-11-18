@@ -39,7 +39,7 @@ elseif (isset($_POST['login'])) {
             // Redirect to the dashboard
             $_SESSION['user_id'] = $row['id'];
             header('Location: /user/sign-in/?login-success');
-            sleep(1.5);
+            sleep(3);
             header("Location: ../../user/dashboard");
             exit();
         } else {
