@@ -4,7 +4,7 @@ require_once('../auth/header.php'); ?>
 <div class="main-form d-flex align-items-center justify-content-center">
     <div class="form-wrap d-flex align-items-center flex-column px-4">
         <h2 class="pt-5 pb-3">User Registration
-            <div class="success-msg text-success d-none">
+            <div class="success-msg text-success">
                 Account Successfully Created <a href="/user/sign-in">login</a>
             </div>
             <div class="error-msg text-danger d-none">
