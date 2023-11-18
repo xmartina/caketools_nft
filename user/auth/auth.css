@@ -43,6 +43,13 @@ body{
     width:190px;
     height:39px;
     font-size:14px;
+    cursor:pointer;
+}
+.have-acct:hover{
+    color:#0A1420;
+    background-color:#fff;
+    border:1px solid #0A1420;
+    transition: all 350ms linear;
 }
 .form-wrap form input{
 
