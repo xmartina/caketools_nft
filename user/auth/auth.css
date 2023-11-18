@@ -99,4 +99,5 @@ form input{}
     color:#0A1420;
     transition:all 230ms ease-in-out;
     transform: scale(1.1);
+    box-shadow: none;
 }
