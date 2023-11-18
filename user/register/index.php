@@ -12,7 +12,7 @@ require_once('../auth/header.php'); ?>
             </div>
         </h2>
         <form method="post" action="">
-            <div onclick="location.href('https://caketoolsnftmarketplace.com/user/sign-in')" class="have-acct rounded d-flex align-items-center justify-content-evenly bg-primary text-white"><div class="icon-g"><span class="material-symbols-outlined px-3">person</span></div>
+            <div onclick="location.href='https://caketoolsnftmarketplace.com/user/sign-in'" class="have-acct rounded d-flex align-items-center justify-content-evenly bg-primary text-white"><div class="icon-g"><span class="material-symbols-outlined px-3">person</span></div>
                 Login to Account</div>
             <div class="pt-3"></div>
             <div class="form-group">
