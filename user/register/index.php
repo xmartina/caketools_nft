@@ -3,9 +3,16 @@ $pageTitle = 'User Registration';
 require_once('../auth/header.php'); ?>
 <div class="main-form d-flex align-items-center justify-content-center">
     <div class="form-wrap d-flex align-items-center flex-column px-4">
-        <h2 class="pt-5 pb-3">User Registration</h2>
+        <h2 class="pt-5 pb-3">User Registration
+            <div class="success-msg text-success d-none">
+                Account Successfully Created <a href="/user/sign-in">login</a>
+            </div>
+            <div class="error-msg text-danger d-none">
+                There was an error while creating your account, please check your details and try again
+            </div>
+        </h2>
         <form method="post" action="">
-            <div onclick="location.href('/user/sign-in')" class="have-acct rounded d-flex align-items-center justify-content-evenly bg-primary text-white"><div class="icon-g"><span class="material-symbols-outlined px-3">person</span></div>
+            <div onclick="location.href('https://caketoolsnftmarketplace.com/user/sign-in')" class="have-acct rounded d-flex align-items-center justify-content-evenly bg-primary text-white"><div class="icon-g"><span class="material-symbols-outlined px-3">person</span></div>
                 Login to Account</div>
             <div class="pt-3"></div>
             <div class="form-group">

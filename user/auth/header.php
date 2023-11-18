@@ -14,11 +14,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Insert user data into the database
     $sql = "INSERT INTO users (user_name, password, email, first_name, last_name) VALUES ('$user_name', '$password', '$email', '$first_name', '$last_name')";
-    if (mysqli_query($conn, $sql)) {
-        echo "Registration successful. You can now <a href='../../user/sign-in'>sign in</a>.";
-    } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-    }
+    if (mysqli_query($conn, $sql)) { ?>
+       <script>
+           var successMsg = document.querySelector('.form-wrap .success-msg');
+           successMsg.classList.remove('d-none');
+       </script>
+    <?php } else { ?>
+        <script>
+            var errorMsg = document.querySelector('.form-wrap .error-msg');
+            errorMsg.classList.remove('d-none');
+        </script>
+    <?php }
 }
 
 // Close the database connection

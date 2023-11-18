@@ -39,6 +39,11 @@ body{
     font-weight:bold;
     font-size: 23px;
 }
+.form-wrap h2 .success-msg{
+    font-size:13px;
+    font-weight:bold;
+
+}
 .have-acct{
     width:190px;
     height:39px;
