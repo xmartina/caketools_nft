@@ -68,7 +68,7 @@ form input{}
 }
 .form-wrap form input{
     width:100%;
-    height:24px;
+    height:35px;
     background-color: #dadcdc;
     color:#0A1420;
     padding: 0 6px;
@@ -79,4 +79,18 @@ form input{}
     -webkit-box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
     -moz-box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
     -o-box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
+}
+.form-wrap form input:hover{
+    border:1px solid #0b2e58;
+    background-color: #fcfffc;
+    transition: all 350ms linear;
+}
+.form-wrap form input:active{
+    border:1px solid #0A1420;
+    background-color:#fff;
+    font-size:13px;
+}
+.form-wrap form input[type="submit"]{
+    background-color: #0A1420;
+    color:#fff5f5;
 }
