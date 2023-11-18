@@ -52,15 +52,16 @@ body{
     transition: all 350ms linear;
 }
 .form-wrap form{
-    width:300px;
+    width:360px;
     margin: 0 auto;
 
 }
+form input{}
 @media (max-width: 769px) {
     .form-wrap form{
         width:95%;
     }
 }
 .form-wrap form input{
-
+    width:100%;
 }
