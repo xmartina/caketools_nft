@@ -40,7 +40,7 @@ require_once('../auth/header.php'); ?>
                 <div class="row">
                     <div class="col-12">
                         <label for="">Password
-                            <input type="password" name="password" required><br>
+                            <input type="password" name="password" required>
                         </label>
                     </div>
                 </div>
